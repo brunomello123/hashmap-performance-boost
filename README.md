@@ -16,7 +16,7 @@ Medição do tempo de execução das duas abordagens.
 Como Rodar o Projeto
 Clone este repositório para o seu ambiente local:
 
-git clone https://github.com/seu-usuario/python-example.git
+git clone https://github.com/brunomello123/hashmap-performance-boost.git
 cd PythonExample
 Instale o Python 3.11 (ou versão superior), se ainda não o tiver:
 
