@@ -1,31 +1,33 @@
 Python Example: Performance Comparison Between O(N) and O(1)
-Este projeto demonstra a diferença de performance entre duas abordagens de busca em listas e dicionários no Python.
+This project demonstrates the performance difference between two search approaches using lists and dictionaries in Python.
 
-Objetivo
-O objetivo deste projeto é comparar o tempo de execução de uma busca linear em uma lista (O(N)) contra uma busca otimizada em um dicionário (O(1)), utilizando um exemplo com grandes quantidades de dados (1.000.000 departamentos).
+Objective
+The goal of this project is to compare the execution time of a linear search on a list (O(N)) versus an optimized search using a dictionary (O(1)), using an example with large data sets (1,000,000 departments).
 
-Estrutura do Projeto
-main.py: Arquivo principal que contém a implementação da comparação de desempenho.
-Geração de dados de exemplo (10.000.000 departamentos e funcionários).
-Implementação de duas funções de busca:
-  get_employees_on(department): Busca linear em uma lista de tuplas (O(N)).
-  get_employees_o1(department): Busca otimizada usando dicionário (O(1)).
-
-Medição do tempo de execução das duas abordagens.
-
-Como Rodar o Projeto
-Clone este repositório para o seu ambiente local:
+Project Structure
+main.py: The main file that contains the performance comparison implementation.
+Data generation example (10,000,000 departments).
+Implementation of two search functions:
+get_employees_on(department): Linear search in a list of tuples (O(N)).
+get_employees_o1(department): Optimized search using a dictionary (O(1)).
+Measuring the execution time of both approaches.
+How to Run the Project
+Clone this repository to your local environment:
 
 git clone https://github.com/brunomello123/hashmap-performance-boost.git
 cd PythonExample
-Instale o Python 3.11 (ou versão superior), se ainda não o tiver:
 
-# Verifique se o Python está instalado
+Install Python 3.11 (or higher) if you don't have it already:
+
+# Check if Python is installed
 python --version
-Execute o script main.py para observar a comparação de desempenho:
+
+Run the main.py script to observe the performance comparison:
 
 python main.py
-O programa imprimirá o tempo de execução de cada abordagem no console:
 
-Tempo O(N) (Busca em lista)
-Tempo O(1) (Busca otimizada com dicionário)
+The program will print the execution time of each approach to the console:
+
+O(N) Time (List search)
+O(1) Time (Optimized search with dictionary)
+
