@@ -22,7 +22,7 @@ Install Python 3.11 (or higher) if you don't have it already:
 # Check if Python is installed
 python --version
 
-Run the main.py script to observe the performance comparison:
+# Run the main.py script to observe the performance comparison:
 
 python main.py
 
